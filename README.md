@@ -9,21 +9,20 @@ This project implements a basic Electronic Voting Machine (EVM) using an Arduino
 - Easy to set up and use.
 
 ## Components Used:
-- Arduino Uno/Nano
+- Arduino Uno
 - 16x2 LCD Display
 - Push Buttons (for voting)
 - LEDs (for status indication)
 - Jumper Wires
 - Breadboard
+- resistors
+- potentiometer
 
 ## How It Works:
 1. Users vote by pressing a button corresponding to a candidate.
 2. Each button press is counted and displayed on the LCD.
 3. The system shows the results after voting is completed.
-
-## Circuit Diagram:
-It is available in the report file.
-
+4. 
 ## Setup Instructions:
 1. Connect the components according to the circuit diagram.
 2. Upload the Arduino code to your Arduino board.
@@ -31,6 +30,3 @@ It is available in the report file.
 
 ## Code:
 The Arduino code is written in C++ and can be found in the `EVM.ino` file.
-
-## License:
-This project is open-source and available under the MIT License.
